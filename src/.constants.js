@@ -3,8 +3,8 @@ module.exports = Object.freeze({
   ARIA_SECRET: 'somebylongbykey',
   ARIA_DOWNLOAD_LOCATION: '/app (no trailing "/")',
   ARIA_DOWNLOAD_LOCATION_ROOT: '/app', //The mountpoint that contains ARIA_DOWNLOAD_LOCATION
-  ARIA_FILTERED_DOMAINS: ['yts', 'YTS', 'cruzing.xyz', 'eztv.ag', 'YIFY'], // Prevent downloading from URLs containing these substrings
-  ARIA_FILTERED_FILENAMES: ['YIFY'], // Files/top level directories with these substrings in the filename won't be downloaded
+  ARIA_FILTERED_DOMAINS: [], // Prevent downloading from URLs containing these substrings
+  ARIA_FILTERED_FILENAMES: [], // Files/top level directories with these substrings in the filename won't be downloaded
   ARIA_PORT: 8210, // Port for aria2c RPC server, if you change this here, make sure to update aria.sh as well
   GDRIVE_PARENT_DIR_ID: '13d-SS4kev97DWlGX9WPr9eqHiv6X39At',
   SUDO_USERS: [],	// Telegram user IDs. These users can use the bot in any chat.
