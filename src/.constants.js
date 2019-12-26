@@ -2,7 +2,7 @@ module.exports = Object.freeze({
   TOKEN: '906641166:AAFKAAQNYcLnHOxMJqLkBEnkKyZR-cELGq8',
   ARIA_SECRET: 'somebylongbykey',
   ARIA_DOWNLOAD_LOCATION: '/app/.heroku/activestorage-preview/usr/bin/ffmpeg (no trailing "/")',
-  ARIA_DOWNLOAD_LOCATION_ROOT: '/', //The mountpoint that contains ARIA_DOWNLOAD_LOCATION
+  ARIA_DOWNLOAD_LOCATION_ROOT: '/app/.heroku/activestorage-preview/usr/bin/ffmpeg', //The mountpoint that contains ARIA_DOWNLOAD_LOCATION
   ARIA_FILTERED_DOMAINS: ['yts', 'YTS', 'cruzing.xyz', 'eztv.ag', 'YIFY'], // Prevent downloading from URLs containing these substrings
   ARIA_FILTERED_FILENAMES: ['YIFY'], // Files/top level directories with these substrings in the filename won't be downloaded
   ARIA_PORT: 8210, // Port for aria2c RPC server, if you change this here, make sure to update aria.sh as well
